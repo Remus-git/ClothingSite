@@ -1,0 +1,418 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.mainContainer{
+    width: 100%;
+    height: 100%;
+}
+.firstSectionContainer{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+.navContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+    z-index: 1;
+    margin-top: 20px;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+}
+.menuContainer{
+    width: 50%;
+}
+.menuContainer ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.menuContainer a{
+    flex-basis: 30%;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.fa-bars{
+    color: white;
+}
+.textContainer{
+    width: 50%;
+    position: absolute;
+    top: 200px;
+    left: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.description1{
+    padding-bottom: 20px;
+}
+.description2{
+    width: 50%;
+    font-size: 5rem;
+    font-weight: bold;
+}
+.description3{
+    width: 100%;
+    padding-top: 50px;
+}
+.textContainer button{
+    margin-top: 60px;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    background: transparent;
+    border: solid black 2px;
+}
+.firstBackgroundImage{
+    width: 40%;
+    right: 0px;
+    position: absolute;
+    right: 0;
+    height: 100vh;
+}
+.firstBackgroundImage img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    border-bottom-left-radius: 380px;
+    border-bottom-right-radius: 380px;
+}
+.secondSectionContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.secondBackgroundImage{
+    width: 50%;
+    padding-left: 140px;
+}
+.secondBackgroundImage img{
+    width: 70%;
+    height: 90%;
+    object-fit: cover;
+    border-top-right-radius: 380px;
+    border-top-left-radius: 380px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.secondTextContainer{
+    width: 50%;
+    right: 0px;
+    height: 100vh;
+    padding-left: 200px;
+    padding-top: 190px;
+
+}
+.secDiscription2{
+    padding-top: 40px;
+    width: 80%;
+    font-size: 5rem;
+}
+.secDiscription3{
+    width: 50%;
+    padding-top: 40px;
+}
+.secondTextContainer button{
+    width: 150px;
+    height: 50px;
+    margin-top: 60px;
+    border-radius: 15px;
+    background: transparent;
+    border-radius: solid black 2px;
+}
+.thirdSectionContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.thirdTextContainer{
+    width: 50%;
+    padding-left: 150px;
+    padding-top: 190px;
+}
+.thirdBackgroundImage{
+    width: 50%;
+}
+.thirdBackgroundImage img{
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-right-radius: 380px;
+    border-bottom-left-radius: 380px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.thirdDiscription2{
+    padding-top: 40px;
+    width: 80%;
+    font-size: 5rem;
+}
+.thirdDiscription3{
+    width: 50%;
+    padding-top: 40px;
+}
+.thirdTextContainer button{
+    width: 150px;
+    height: 50px;
+    margin-top: 60px;
+    border-radius: 15px;
+    background: transparent;
+    border-radius: solid black 2px;
+}
+.fourthSectionContainer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(12, 12, 39);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.aboutContainer{
+    color: rgb(204, 204, 204);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.about{
+    padding-top: 20px;
+    width:50%;
+    text-align: center;
+}
+.detailsContainer{
+    width: 100%;
+    display: flex;
+    padding-top: 130px;
+}
+.contactContainer{
+    flex-basis: 30%;
+    color: grey;
+    padding-left: 40px;
+}
+.contactContainer span{
+    color: white;
+}
+.secAbout{
+    width: 100%;
+    color: grey;
+    flex-basis: 40%;
+    text-align: center;
+}
+.paymentAndConnect{
+    flex-basis: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.paymentAndConnect i{
+    color: grey;
+    padding-left: 30px
+}
+@media(max-width:1543px){
+    .description2{
+        width: 100%;
+        font-size: 3rem;
+    }
+    .firstSectionContainer{
+        height: 80vh;
+    }
+    .firstBackgroundImage img{
+        height: 80%;
+    }
+    .secondSectionContainer{
+        height: 60vh;
+    }
+    .secondBackgroundImage{
+        height: 80%;
+    }
+    .secondBackgroundImage img{
+        width: 100%;
+    }
+    .secondTextContainer{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        height: auto;
+        padding-left: 20px;
+    }
+    .secDiscription2{
+        font-size: 2rem;
+        width: auto;
+    }
+    .secDiscription3{
+        width: auto;
+    }
+    .thirdSectionContainer{
+        height: 70vh;
+    }
+    .thirdTextContainer{
+        padding: 0;
+        padding-left: 150px;
+    }
+    .thirdDiscription2{
+        font-size: 2rem;
+        width: auto;
+    }
+    .thirdDiscription3{
+        width: auto;
+    }
+    .thirdBackgroundImage img{
+        height: 80%;
+    }
+    .fourthSectionContainer{
+        height: auto;
+    }
+    .detailsContainer{
+        padding-top: 40px;
+    }
+    .about{
+        width: 80%;
+    }
+}
+@media(max-width:828px){
+    .textContainer{
+        top: 80px;
+    }
+    .textContainer button{
+        margin-top: 20px;
+    }
+    .secondSectionContainer{
+        height: auto;
+    }
+    .secondTextContainer{
+        padding-top: 0;
+    }
+    .secondTextContainer button{
+        margin-top: 20px;
+    }
+    .secondBackgroundImage{
+        padding: 0;
+        padding-left: 10px;
+    }
+    .thirdSectionContainer{
+        height: auto;
+    }
+    .thirdTextContainer{
+        width: 70%;
+        padding: 0;
+        padding-left: 10px;
+    }
+    .thirdTextContainer button{
+        margin-top: 20px;
+    }
+    .thirdBackgroundImage img{
+        width: 95%;
+        height: 100%;
+    }
+}
+@media (max-width:564px){
+    .logo{
+        color: white;
+    }
+    .menuContainer{
+        display: none;
+    }
+    .firstBackgroundImage{
+        width: 100%;
+        height: 100%;
+    }
+    .firstBackgroundImage img{
+        border-radius: 0;
+    }
+    .textContainer{
+        padding-top: 220px;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+    }
+    .description2{
+        font-size: clamp(20px,5vh,1rem);
+        color: white;
+    }
+    .description3{
+        color: rgb(192, 192, 192);
+    }
+    .textContainer button{
+        color: white;
+        border: solid rgb(192, 192, 192);
+    }
+    .secondBackgroundImage {
+        width: 100%;
+        padding: 0;
+    }
+    .secondBackgroundImage img{
+        border-radius: 0;
+    }
+    .secondTextContainer{
+        width: 100%;
+        position: absolute;
+        padding-top: 100px;
+    }
+    .secDiscription2{
+        font-size: clamp(20px,5vh,1rem);
+    }
+    .secDiscription3{
+        color: rgb(192, 192, 192);
+    }
+    .secondTextContainer button{
+        color: white;
+        border: solid rgb(192, 192, 192) 2px;
+    }
+    .thirdBackgroundImage{
+        width: 100%;
+        padding: 0;
+    }
+    .thirdBackgroundImage img{
+        width: 100%;
+        border-radius: 0;
+    }
+    .thirdTextContainer{
+        width: 100%;
+        position: absolute;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .thirdDiscription2{
+        font-size: clamp(20px,5vh,1rem);
+    }
+    .thirdDiscription3{
+        color: rgb(192, 192, 192);
+    }
+    .thirdTextContainer button{
+        color: white;
+        border: solid rgb(192, 192, 192) 2px;
+    }
+    .fourthSectionContainer{
+        border-radius: 0;
+        height: auto;
+    }
+    .about{
+        width: 100%;
+        font-size: 10px;
+    }
+    .contactContainer{
+        font-size: 10px;
+    }
+    .secAbout{
+        font-size: 10px;
+        padding-left: 30px;
+    }
+    .paymentAndConnect{
+        font-size: 10px;
+    }
+}
